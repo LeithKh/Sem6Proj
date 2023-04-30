@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Confetti Girls</title>
+  <link rel="styleSheet" href="stylesIndex.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+
+  <div class="headerLogo"><img src="images/logo.png" alt="logo" width="20%"></div>
+
+  <header class="stickyNav">
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="specReq.html">Special Request Form</a>
+        <a href="flowers.html">Flowers</a>
+        <a href="flowersDried.html">Dried flowers</a>
+        <a href="weddings.html">Weddings</a>
+        <a href="aboutus.html">About us</a>
+        <a href="contacts.html">Contact us</a>
+        <a href="cart.html"><img src="images/cart2White.png" width="15px" onmouseover="this.src='images/cart2.png';"
+            onmouseout="this.src='images/cart2White.png';"></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <img src="images/tripleLine.png"
+            alt="SubMenuIcon" width="15px"></a>
+        <script src="indexScripts/topnav.js"></script>
+      </div>
+    </nav>
+  </header>
+
+  <div class="slideshow-container">
+
+    <!-- Full-width images with caption text -->
+    <div class="mySlides fade">
+      <img src="images/burnerBanner.png" style="width:100%">
+      <div class="text"><a href="flowers.html">Order now!</a></div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/burnerBanner2.png" style="width:100%">
+      <div class="text"><a href="flowersDried.html">Order now!</a></div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/burnerBanner3.png" style="width:100%">
+      <div class="text"><a href="weddings.html">Order now!</a></div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- Dots -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  <script src="indexScripts/slideshow.js"></script>
+
+  <!-- Previous work page-->
+  <div class="container1">
+    <div class="row">
+      <div class="column-66">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsum explicabo pariatur deserunt
+          iusto delectus, vitae culpa? Perspiciatis tempora cum veritatis nisi, enim error quod doloremque illo mollitia
+          hic dolorem.
+        </p>
+      </div>
+      <div class="column-33">
+        <img src="images/fancyThing1.jpg" alt="showcase image" width="100%">
+      </div>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="row">
+      <div class="column-33">
+        <img src="images/fancyThing2.jpg" alt="showcase image" width="100%">
+      </div>
+      <div class="column-66">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus ipsum explicabo pariatur deserunt
+          iusto delectus, vitae culpa? Perspiciatis tempora cum veritatis nisi, enim error quod doloremque illo mollitia
+          hic dolorem.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <img src="images/divider.png" alt="divider" width="100%"
+    style="box-shadow: inset 2px 2px 20px 1px #00000065; background-color: white;">
+
+  <footer>
+    <nav>
+      <div class="secondaryNav">
+        <h5>Contact us</h5>
+        <h5>Locations</h5>
+        <h5>Legal</h5>
+        <h5>Privacy and cookies</h5>
+      </div>
+      <div class="socials">
+        <img src="images/OIP-removebg-preview.png" alt="FB Link" width="3%">
+        <img src="images/OIP__1_-removebg-preview.png" alt="IG Link" width="3%">
+      </div>
+    </nav>
+
+    <div class="copyrights">
+      ©Confetti Girls 2023
+    </div>
+  </footer>
+</body>
+
+
+</html>

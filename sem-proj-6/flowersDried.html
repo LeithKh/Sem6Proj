@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Flowers</title>
+  <link rel="styleSheet" href="stylesStore.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+</head>
+
+<body>
+  <div class="headerLogo"><img src="images/logo.png" alt="logo" width="20%"></div>
+
+  <header class="stickyNav">
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="specReq.html">Special Request Form</a>
+        <a href="flowers.html">Flowers</a>
+        <a href="flowersDried.html" class="active">Dried flowers</a>
+        <a href="weddings.html">Weddings</a>
+        <a href="aboutus.html">About us</a>
+        <a href="contacts.html">Contact us</a>
+        <a href="cart.html"><img src="images/cart2White.png" width="15px" onmouseover="this.src='images/cart2.png';"
+            onmouseout="this.src='images/cart2White.png';"></a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"> <img src="images/tripleLine.png"
+            alt="SubMenuIcon" width="15px"></a>
+        <script src="indexScripts/topnav.js"></script>
+      </div>
+    </nav>
+  </header>
+
+  <div class="gridFlowers">
+    <article>
+      <img src="images/dried1.jpg" alt="Image not found">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio maxime incidunt perferendis molestiae impedit
+        molestias, harum obcaecati sequi, quae similique sapiente ea quibusdam cum rerum, sit error iure nihil adipisci.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio maxime incidunt perferendis molestiae impedit
+        molestias, harum obcaecati sequi, quae similique sapiente ea quibusdam cum rerum, sit error iure nihil adipisci.
+      </p>
+      <button onclick="addFlower({id:0, name:'uno', price:10, Img:'./images/flower1.png'})">Add to cart</button>
+    </article>
+    <article>
+      <img src="images/dried2.jpg" alt="Image not found">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio maxime incidunt perferendis molestiae impedit
+        molestias, harum obcaecati sequi, quae similique sapiente ea quibusdam cum rerum, sit error iure nihil adipisci.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio maxime incidunt perferendis molestiae impedit
+        molestias, harum obcaecati sequi, quae similique sapiente ea quibusdam cum rerum, sit error iure nihil adipisci.
+      </p>
+      <button onclick="addFlower({id:1, name:'dos', price:10, Img:'./images/flower2.png'})">Add to cart</button>
+    </article>
+    <article>
+      <img src="images/dried3.jpg" alt="Image not found">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio maxime incidunt perferendis molestiae impedit
+        molestias, harum obcaecati sequi, quae similique sapiente ea quibusdam cum rerum, sit error iure nihil adipisci.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio maxime incidunt perferendis molestiae impedit
+        molestias, harum obcaecati sequi, quae similique sapiente ea quibusdam cum rerum, sit error iure nihil adipisci.
+      </p>
+      <button onclick="addFlower({id:2, name:'tres', price:10, Img:'./images/flower3.png'})">Add to cart</button>
+    </article>
+    <article>
+      <img src="images/dried4.jpg" alt="Image not found">
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio maxime incidunt perferendis molestiae impedit
+        molestias, harum obcaecati sequi, quae similique sapiente ea quibusdam cum rerum, sit error iure nihil adipisci.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio maxime incidunt perferendis molestiae impedit
+        molestias, harum obcaecati sequi, quae similique sapiente ea quibusdam cum rerum, sit error iure nihil adipisci.
+      </p>
+      <button onclick="addFlower({id:2, name:'tres', price:10, Img:'./images/flower3.png'})">Add to cart</button>
+    </article>
+    <script src="cartScripts/cartScript.js"></script>
+  </div>
+  <img src="images/divider.png" alt="divider" width="100%"
+    style="box-shadow: inset 2px 2px 20px 1px #00000065; background-color: white;">
+
+  <footer>
+    <nav>
+      <div class="secondaryNav">
+        <h5>Contact us</h5>
+        <h5>Locations</h5>
+        <h5>Legal</h5>
+        <h5>Privacy and cookies</h5>
+      </div>
+      <div class="socials">
+        <img src="images/OIP-removebg-preview.png" alt="FB Link" width="3%">
+        <img src="images/OIP__1_-removebg-preview.png" alt="IG Link" width="3%">
+      </div>
+    </nav>
+
+    <div class="copyrights">
+      ©Confetti Girls 2023
+    </div>
+  </footer>
+</body>
+
+</html>
